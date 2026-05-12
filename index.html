@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moe Kyaw Aung - Full Stack Developer | Ultra Portfolio</title>
+    <meta name="description" content="Moe Kyaw Aung - Expert Full Stack Developer specializing in React, Next.js, Flutter, Angular, Three.js and more. 15+ premium portfolio projects.">
+    
+    <!-- Favicon & PWA -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Moe Kyaw Aung - Full Stack Developer">
+    <meta property="og:description" content="Premium portfolio showcasing 15+ cutting-edge projects">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://dev-moe-kyawaung.github.io/portfolio-ultra">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <span>Portfolio Loading...</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>Moe Kyaw Aung</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Moe Kyaw Aung</span>
+                    <br>
+                    <span>Full Stack Developer</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Crafting premium digital experiences with React, Next.js, Flutter, Angular & Three.js
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <img src="images/profile.png" alt="Moe Kyaw Aung">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Full Stack Developer with expertise in modern web technologies. I specialize in creating premium, high-performance applications that deliver exceptional user experiences.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <span>Portfolio Projects</span>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <span>Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <span>Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>Angular</span>
+                        <span>Flutter</span>
+                        <span>Tailwind</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>Kotlin/Ktor</span>
+                        <span>Ruby/Sinatra</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Specialized</h3>
+                    <div class="skill-tags">
+                        <span>Three.js</span>
+                        <span>Gatsby</span>
+                        <span>Glassmorphism</span>
+                        <span>Neumorphism</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@moekyawaung.dev</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Dev-moe-kyawaung" target="_blank">github.com/Dev-moe-kyawaung</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Moe Kyaw Aung. Built with ❤️ and cutting-edge tech.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
